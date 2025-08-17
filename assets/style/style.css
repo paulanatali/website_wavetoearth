@@ -1,4 +1,22 @@
-/* FOOTER */
+/*  FONTE  */
+header, h2, h5, button{
+ font-family: Tahoma;   
+}
+
+/*  CARDS DISCOGRAFIA  */
+.discografia {
+    background-color: rgba(230, 230, 230, 0.649);
+    padding: 20px 20px 60px;
+    border-radius: 15px;
+}
+
+/*  BUTTON  */
+.card-body .btn {
+  display: block;
+  margin-left: auto;
+}
+
+/*  FOOTER  */
 footer {
     text-align: center;
     padding: 20px;
@@ -10,6 +28,6 @@ footer {
 }
 
 footer a {
-    color: #fff;
+    color: white;
     text-decoration: underline;
 }
